@@ -1,0 +1,8 @@
+http://www.dafont.com/yikes.font
+http://www.dafont.com/single-sleeve.font
+http://www.dafont.com/comic-book.font (only lowercase)
+http://www.dafont.com/comic-andy.font?text=Comic+Andy
+
+Yikes for upper, comic andy for lower?
+
+comic book for numbers?

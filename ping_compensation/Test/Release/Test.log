@@ -1,0 +1,41 @@
+﻿Build started 12/11/2015 7:02:44 PM.
+     1>Project "E:\old files\Project BadPing\RED VERSION\Test\Test.vcxproj" on node 2 (Rebuild target(s)).
+     1>ClCompile:
+         E:\VS\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /O2 /Oi /Ot /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USRDLL /D TEST_EXPORTS /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Release\\" /Fd"Release\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt ..\VMT\vmthooks.cpp dllmain.cpp TFL_HT.cpp
+         vmthooks.cpp
+         dllmain.cpp
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\dbghelp.h(1544): warning C4091: 'typedef ': ignored on left of '' when no variable is declared
+     1>C:\Program Files (x86)\Windows Kits\8.1\Include\um\dbghelp.h(3190): warning C4091: 'typedef ': ignored on left of '' when no variable is declared
+     1>e:\old files\project badping\red version\test\Globals.h(112): warning C4244: '=': conversion from 'float' to 'unsigned char', possible loss of data
+     1>e:\old files\project badping\red version\test\Globals.h(205): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>e:\old files\project badping\red version\test\Globals.h(206): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+     1>e:\old files\project badping\red version\test\Globals.h(221): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+     1>e:\old files\project badping\red version\test\Globals.h(278): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>e:\old files\project badping\red version\test\Globals.h(279): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+     1>e:\old files\project badping\red version\test\Globals.h(303): warning C4244: '+=': conversion from 'double' to 'float', possible loss of data
+     1>e:\old files\project badping\red version\test\Globals.h(324): warning C4996: 'vswprintf': function has been changed to conform with the ISO C standard, adding an extra character count parameter. To use the traditional Microsoft version, set _CRT_NON_CONFORMING_SWPRINTFS.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\corecrt_wstdio.h(1835): note: see declaration of 'vswprintf'
+     1>e:\old files\project badping\red version\test\Globals.h(364): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>e:\old files\project badping\red version\test\Globals.h(365): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\string.h(119): note: see declaration of 'strcpy'
+     1>dllmain.cpp(86): warning C4305: '=': truncation from 'double' to 'float'
+     1>dllmain.cpp(88): warning C4305: '=': truncation from 'double' to 'float'
+     1>dllmain.cpp(91): warning C4305: '=': truncation from 'double' to 'float'
+     1>dllmain.cpp(94): warning C4305: '=': truncation from 'double' to 'float'
+     1>dllmain.cpp(174): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+         C:\Program Files (x86)\Windows Kits\10\Include\10.0.10150.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+         TFL_HT.cpp
+       Link:
+         E:\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\old files\Project BadPing\RED VERSION\Test\Release\Test.dll" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /Debug /PDB:"E:\old files\Project BadPing\RED VERSION\Test\Release\Test.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG:incremental /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\old files\Project BadPing\RED VERSION\Test\Release\Test.lib" /MACHINE:X86 /SAFESEH:NO /DLL Release\vmthooks.obj
+         Release\dllmain.obj
+         Release\TFL_HT.obj
+         Generating code
+         All 190 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+         Finished generating code
+         Test.vcxproj -> E:\old files\Project BadPing\RED VERSION\Test\Release\Test.dll
+     1>Done Building Project "E:\old files\Project BadPing\RED VERSION\Test\Test.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:11.96

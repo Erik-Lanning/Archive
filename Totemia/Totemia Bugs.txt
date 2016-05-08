@@ -1,0 +1,21 @@
+List of Current Bugs:
+-----------------------------------
+Reset button is a little glitchy, moves blocks a little bit off from specified location
+reason: Idk but I think it's caused because the original blocks arent removed fast enough
+Solution: Try copying the Ghost source code because I think it has a structure that prevents this
+also maybe try using Ghost source code's director class
+Also it could be caused by the physics, try pausing in the levelloader and then starting the physics again
+---------------------------------
+DISABLE HOME BUTTON AND RESET BUTTON WHILE TOTEM BREAK TIMER IS ON, OTHERWISE YOU GET WEIRD DOUBLE RESETS AND STUFF
+---------------
+1x1 explosive blocks = Insane burst force
+1x4 explosive blocks = barely any?
+-------------
+Weird glitch where bomb block sometimes doesnt apply force, repeat by removing middle block and then clicking indestructable block hitbox where somewhat over bomb block?
+REASON: Actually caused because theres no blocks around the explosive block, so nothing is affected, somewhat working as intended
+----------------
+Releasing a dragged object when the totem hits the ground at the right time, causes the totem hitting the ground reset timer to not work [ONLY SOMETIMES]
+hard to replicate
+----------------
+To Add:
+Add an onscreen timer so players can see how many more seconds till it's considered a win

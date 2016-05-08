@@ -1,0 +1,7 @@
+Sounds needed:
+
+-Totem hits ground
+-Explosive block tapped
+-Cha ching sound (for when player wins a round, maybe other sound)
+
+Kudochop of ZFZ add to credits

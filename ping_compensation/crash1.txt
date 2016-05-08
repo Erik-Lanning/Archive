@@ -1,0 +1,5 @@
+Cast of NULL to Level failed
+
+Address = 0x76c7c41f (filename not found) [in C:\Windows\syswow64\KERNELBASE.dll]
+Address = 0x47feb1   (filename not found) [in C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\tribes\binaries\Win32\TribesAscend.exe]
+Address = 0x4a8533   (filename not found) [in C:\Program Files (x86)\Hi-Rez Studios\HiRezGames\tribes\binaries\Win32\TribesAscend.exe]

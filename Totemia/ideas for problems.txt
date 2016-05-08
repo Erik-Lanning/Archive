@@ -1,0 +1,33 @@
+Possible Magnatism?
+http://developer.coronalabs.com/forum/2012/05/28/magnetitem-tracking-question
+====================================================================================
+local function follow()                                                                                                         
+        local angle = math.atan2(Ship.y - enemy.y, Ship.x - enemy.x)                            
+        enemy.x = enemy.x + (math.cos(angle) * 2) --speed x axis                                                                
+        enemy.y = enemy.y + (math.sin(angle) * 2) --speed y axis                                                                        
+end
+Runtime:addEventListener("enterFrame", follow)
+ 
+ 
+ 
+--This may be easier to change the speed
+ 
+ 
+local speed = 2
+ 
+local function follow()                                                                                                         
+        local angle = math.atan2(Ship.y - enemy.y, Ship.x - enemy.x)                            
+        enemy.x = enemy.x + (math.cos(angle) * speed)                                                           
+        enemy.y = enemy.y + (math.sin(angle) * speed)                                                                   
+end
+Runtime:addEventListener("enterFrame", follow)
+====================================================================================
+
+sleep function:
+local clock = os.clock
+function sleep(n)  -- seconds
+  local t0 = clock()
+  while clock() - t0 <= n do end
+end
+
+http://developer.coronalabs.com/reference/index/bodyapplylinearimpulse

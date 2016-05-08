@@ -1,0 +1,11 @@
+{
+	"settings":
+	[ 
+		{
+			"music" : "1",
+			"soundeffects" : "1",
+			"loadlevel" : "0",
+			"currentlevel" : "1"
+		} 
+	]
+}

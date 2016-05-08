@@ -1,0 +1,68 @@
+Locations for widescreen menu:
+
+Play button:
+140x 70y
+
+Options:
+140x 140y
+
+Tutorial:
+140x 210y
+
+Credits:
+140x 280y
+
+Block1: 422x, 125y
+Block2: 328x, 175y
+Block3:	422x, 245y
+
+Totemia Text: 380x, 40y : size 30ish (36 to start)
+
+
+Options page:
+
+Label "Sound Effects:" font size 20.0, 175x, 32y
+Label "Music:" font size 20.0, 137x, 137y
+Sound Effects on/off button: 240x, 75y
+Music on/off button: 240x, 180y
+Back button: 240x, 285y
+
+Tutorial page:
+"Totemia" title: 240x, 22y size 36 font
+"Remove blocks and don't let the totem hit the ground, good luck." f-size: 15, 239x, 51y
+"Magnet blocks pull other magnet blocks together, the closer they are." f-size: 13, 199x, 85y
+"Standard blocks are boring and do nothing, but can be removed." f-size: 13, 186x, 119y
+"Draggable blocks can be moved around with tap and hold." f-size: 13, 167x, 154y
+"Bomb blocks let out a blast that pushes nearby blocks." f-size: 13, 161x, 202y
+"Indestructable blocks cannot be removed." - f-size: 13, 122x, 246y
+back button - 133x, 288y
+
+1x1 magnet block- 435x, 83y
+1x1 standard block-435x 118y
+1x1 movable block-435x 158y
+1x1 explosive block-435x 200y
+1x1 indestructable blocks- 435x 243y
+
+
+
+Credits Page:
+
+
+back button - 133x, 288y
+Sound Scientists album cover- 159x, 107y w:303, h:182
+Sound Scientist's debut album "Instrumentally Sound" - 158x, 211y - size font:12
+Check it out on iTunes! - 138x, 229y - size font: 12
+"Credits" title - 398x, 24y, - size 25 font
+Programmer - Erik Lanning 397x, 52y size font:12
+Devil Evil - Sprite Artist 384x, 75y, size font:12
+Music - Sound Scientists 391x, 97y, size font:12
+Fonts - dafont.com 376x, 121y, size font: 12
+
+Special Thanks - 388x, 154y, size font:16
+Angela Shapow 387x, 174y, size font: 12
+Tyler J. Johnson 389x, 193y, size font: 12
+Yonghyun Kim 387x, 215y, size font: 12
+Add Roy to this list
+
+2x2 standard block: 382x, 284y
+

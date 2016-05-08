@@ -1,0 +1,48 @@
+Test Levels:
+
+lvl-1:
+blocks needed: 2
+1x1standard 226x, 165y
+2x2standard 227x, 209y
+1x4indestructable 226x, 253y
+totem small 227x, 131y
+
+lvl-2: SUCKS
+blocks needed: 2
+1x4 indestructable 352x, 258y, rotation: -0.04
+1x4 standard 350x, 229y, rotation: -0.04
+1x1 draggable 383x, 198y
+totem small 383x, 163y
+
+lvl-3:
+blocks needed: 3
+2x2 standard 219x, 76y
+2x2 bomb 219x, 130y
+2x2 standard 219x, 185y
+2x2 bomb 219x, 240y
+totem small - 220x, 28y
+1x4 indestructable - 351x, 259y
+1x4 indestructable - 93x, 260y
+
+lvl-4:
+blocks needed: 7
+2x2 magnet 101x, 247y
+2x2 magnet 223x, 238y
+2x2 standard 162x, 241y, rotation: -5.19
+2x2 standard 163x, 184y
+2x2 standard 162x, 127y
+2x2 bomb 161x, 71y
+totem small 170x, 25y
+1x4 indestructable 349x, 258y
+
+lvl-5:
+blocks needed: 4
+1x4 bomb 232x, 253y
+2x2 magnet 237x, 121y
+2x2 magnet 234x, 209y
+1x1 indestruct 54x, 259y
+1x1 indestruct 111x, 260y
+1x4 drag 233x, 166y
+Large totem 238x, 56y
+
+

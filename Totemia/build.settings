@@ -1,0 +1,23 @@
+settings =
+{
+	iphone =
+	{
+		plist =
+		{
+			UIAppFonts =
+			{
+				"comicandy.ttf",
+				"comicbook.ttf",
+				"yikes.ttf"
+			}
+		},
+	},
+	orientation =
+ 	{
+		default = "landscapeRight",
+ 		supported =
+ 		{
+ 		"landscapeLeft", "landscapeRight"
+		}
+	}
+}

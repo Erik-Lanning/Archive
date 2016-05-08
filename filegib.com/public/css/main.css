@@ -1,0 +1,332 @@
+body {
+margin: 0;
+overflow:hidden;
+}
+/*--Upload button--*/
+/*-- width: 100% = This causes weird scroll but it gives lots of room for lines, fix later... --*/
+#contentbox {
+	/*--height:231px;--*/
+	/*--margin-top:85px;--*/
+}
+#logo {
+margin-top: -50px;
+padding-bottom: 30px;
+}
+#file_upload {
+margin-top: -90px; 
+margin-bottom: 85px; 
+margin-left:45%;
+margin-right:45%;
+}
+#infobox {
+	width: 25%;
+	margin-top: 350px;
+	margin-left:40%;
+	margin-right:40%;
+}
+/*--navigation wrapper--*/
+#navwrapper {
+margin:-7px 0px;
+background-color: #2D2D2D;
+}
+ 
+#nav {
+font-family:  Arial, sans-serif;
+padding-top:4px;
+}
+ 
+#nav, #nav ul {
+padding: 0;
+margin: 0;
+list-style: none;
+font: 13px/27px Arial,sans-serif;
+font-weight: bold;
+}
+ 
+/*--main nav links style--*/
+#nav a {
+display:block;
+padding:7px 7px 7px 7px;
+color:#ccc;
+text-decoration:none;
+}
+ 
+#nav a.dmenu {
+ 
+}
+ 
+#nav a.dmenu:hover {
+color:#3366CC !important;
+background-color: #fff !important;
+}
+ 
+#nav li {
+float: left;
+}
+ 
+#nav li {position: relative;}
+ 
+/* hide from IE, mac */
+#nav li {position: static; width: auto;}
+/* end hiding from IE5 mac */
+ 
+/*--drop down menu styling--*/
+#nav li ul {
+position: absolute;
+display: none;
+margin-left:-1px;
+padding-bottom:10px;
+background-color: #FFFFFF;
+border: 1px solid #bbb;
+border-top:none;
+-moz-box-shadow: 0 0 5px #ddd;
+-webkit-box-shadow: 0 0 5px #ddd;
+box-shadow: 0 0 5px #ddd;
+/*--make it top of all the elements on page, so that it can be visible--*/
+z-index:5000;
+}
+ 
+#nav li:hover a, #nav a:focus,
+#nav a:active {
+padding:7px 7px 7px 7px;
+color:#fff;
+background:#444;
+text-decoration:none;
+}
+ 
+#nav li ul, #nav ul li  {
+}
+ 
+/*--drop down menu styling is different from main nav, strict rule--*/
+#nav ul li a  {
+color: #3366CC !important;
+border-right: 0;
+}
+#nav ul li a:hover  {
+color:#3366CC !important;
+background-color: #eef3fb !important;
+border-right: 0;
+}
+ 
+/*--the selected, current item in the navigation menu--*/
+#nav a.current{
+color:#fff;
+font-weight:bold;
+background:#2D2D2D;
+text-decoration:none;
+border-top:2px solid #C33;
+padding-bottom:5px; /*--removing 2px border from 7px padding--*/
+}
+ 
+#nav a.current:hover{
+padding-bottom:5px; /*--removing 2px border from 7px padding--*/
+}
+ 
+#nav li:hover ul {
+display: block;
+}
+ 
+#nav li:hover ul a{
+color: #000000;
+background-color: transparent;
+}
+ 
+#nav ul a:hover {
+background-color: #606060!important;
+color: #FFFFFF !important;
+}
+/*--used in drop down menu items--*/
+.menuseprator{border-bottom:1px solid #ddd; margin:10px 0 10px 0;}
+ 
+/*--for showing down arrow in drop down menu item--*/
+.arrowdown{color#eee; font-size:0.5em;}
+ 
+/*--for the left navigation menu--*/
+.floatleft{float:left;}
+ 
+/*--for the right options navigation menu--*/
+.floatright{float:right;}
+ 
+/*--clear all floating, left and right--*/
+.clear{clear:both;} 
+
+/*--search bar--*/
+
+			.input-append button.add-on { 
+				height: inherit !important;
+
+			}
+			#searchbar {
+				display:block;
+
+				/*set the div in the top right corner*/
+				position:fixed;
+				top:0;
+				right:0;		
+			}
+			
+/*--footer--*/
+#footer {
+width:100%;
+height:30px;
+position:fixed;
+bottom:0;
+left:0;
+background:#F8F8F8;
+z-index:5000;
+text-align: right;
+-moz-box-shadow: 0 0 2px #888;
+-webkit-box-shadow: 0 0 2px #888;
+box-shadow: 0 0 2px #888;
+}
+#bottomlist a {
+color: #666;
+padding: 5px;
+}
+#bottomlist a:hover {
+	color: #0066CC;
+}
+
+/*--Uploaded File placements --*/
+#emperordiv {
+text-align: center;
+top:60px;
+position: fixed;
+left: 37%;
+margin-left: -50px;
+}
+#googlediv {
+text-align: center;
+top:60px;
+position: fixed;
+left: 15%;
+margin-left: -50px;
+}
+#noplugindiv {
+text-align: center;
+top:160px;
+position: fixed;
+left: 40%;
+margin-left: -50px;
+}
+#sounddiv {
+text-align: center;
+top:60px;
+position: fixed;
+left: 43%;
+margin-left: -50px;
+}
+
+#videodiv {
+text-align: center;
+top:60px;
+position: fixed;
+left: 25%;
+margin-left: -50px;
+}
+
+#dewplayer {
+margin-top: 205px;
+}
+#mp3padding{
+padding-bottom: 40px;
+}
+#pagefile {
+padding-bottom:40px;
+max-width:625px;
+max-height:500px;
+top: 60px;
+}
+#contentplugin {
+padding-bottom:40px;
+top: 60px;
+
+}
+#filecontentbox {
+ border-radius: 15px; border-style:solid; border-width: thin; width: 400px; top: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+#registerbox {
+ position: absolute;
+ border-radius: 5px;
+ border-style:solid; 
+ border-width: thin; 
+ width: 500px; 
+ height: 500px; 
+ padding-top: 50px; 
+ top: 100px;
+margin-left:38%;
+margin-right:45%;
+text-align: center;
+}
+#registerbox legend {
+	font-size:2em;
+}
+#videoplayer {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spacer{clear:both; height:1px;}
+/* ----------- My Form ----------- */
+.myform{
+margin:0 auto;
+width:400px;
+padding:14px;
+}
+
+/* ----------- stylized ----------- */
+#stylized{
+border:solid 2px #b7ddf2;
+background:#ebf4fb;
+}
+#stylized h1 {
+font-size:14px;
+font-weight:bold;
+margin-bottom:8px;
+}
+#stylized p{
+font-size:11px;
+color:#666666;
+margin-bottom:20px;
+border-bottom:solid 1px #b7ddf2;
+padding-bottom:10px;
+}
+#stylized label{
+display:block;
+font-weight:bold;
+text-align:right;
+width:140px;
+float:left;
+}
+#stylized .small{
+color:#666666;
+display:block;
+font-size:11px;
+font-weight:normal;
+text-align:right;
+width:140px;
+}
+#stylized input{
+float:left;
+font-size:12px;
+padding:4px 2px;
+border:solid 1px #aacfe4;
+width:200px;
+margin:2px 0 20px 10px;
+}
+#stylized button{
+clear:both;
+margin-left:150px;
+width:125px;
+height:31px;
+background:#666666 url(img/button.png) no-repeat;
+text-align:center;
+line-height:31px;
+color:#FFFFFF;
+font-size:11px;
+font-weight:bold;
+border:0;
+padding:0;
+}
